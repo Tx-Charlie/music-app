@@ -15,7 +15,7 @@ TEMPLATE = app
 SOURCES += \
     src/configdialog.cpp\
     src/main.cpp\
-    src/#nash.cpp\
+    # src/nash.cpp\
     src/nashville.cpp \
     src/widget.cpp \
     src/rectangle.cpp \
@@ -47,7 +47,7 @@ HEADERS  += \
     src/legato.h \
     src/slide.h \
     src/settings.h \
-    src/#nash.h \
+    # src/nash.h \
     src/nashville.h \
     src/nash.h \
     src/chord.h \
