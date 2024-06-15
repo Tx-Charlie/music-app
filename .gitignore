@@ -1,0 +1,9 @@
+# build
+build*
+*.txt.user*
+
+# cache
+.cache
+
+#
+compile_commands.json
