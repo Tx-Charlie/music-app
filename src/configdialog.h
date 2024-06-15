@@ -5,7 +5,7 @@
 #include <QWidget>
 #include <QDialog>
 #include <settings.h>
-#include <config.h>
+// #include <config.h>
 #include "page.h"
 #include "global.h"
 #include <QSignalMapper>

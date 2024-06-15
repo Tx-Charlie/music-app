@@ -3,7 +3,7 @@
 
 #include <QWidget>
 //#include <rectangle.h>
-#include "config.h"
+// #include "config.h"
 #include <QScrollArea>
 #include <QDebug>
 #include <QPainter>

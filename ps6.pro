@@ -12,48 +12,50 @@ TARGET = ps6
 TEMPLATE = app
 
 
-SOURCES += configdialog.cpp\
-    main.cpp\
-#nash.cpp\
-nashville.cpp \
-    widget.cpp \
-    rectangle.cpp \
-    title.cpp \
-    logo.cpp \
-    cursor.cpp \
-    page.cpp \
-    note.cpp \
-    legato.cpp \
-    slide.cpp \
-    settings.cpp \
-    nash.cpp \
-    chord.cpp \
-    symboldialog.cpp \
-    line.cpp \
-    element.cpp
+SOURCES += \
+    src/configdialog.cpp\
+    src/main.cpp\
+    src/#nash.cpp\
+    src/nashville.cpp \
+    src/widget.cpp \
+    src/rectangle.cpp \
+    src/title.cpp \
+    src/logo.cpp \
+    src/cursor.cpp \
+    src/page.cpp \
+    src/note.cpp \
+    src/legato.cpp \
+    src/slide.cpp \
+    src/settings.cpp \
+    src/nash.cpp \
+    src/chord.cpp \
+    src/symboldialog.cpp \
+    src/line.cpp \
+    src/element.cpp
 
 
-HEADERS  += global.h \
-    configdialog.h \
-    widget.h \
-    rectangle.h \
-    title.h \
-    logo.h \
-    cursor.h \
-    page.h \
-    note.h \
-    legato.h \
-    slide.h \
-    settings.h \
-#nash.h \
-    nashville.h \
-    nash.h \
-    chord.h \
-    symboldialog.h \
-    line.h \
-    element.h
+HEADERS  += \
+    src/global.h \
+    src/configdialog.h \
+    src/widget.h \
+    src/rectangle.h \
+    src/title.h \
+    src/logo.h \
+    src/cursor.h \
+    src/page.h \
+    src/note.h \
+    src/legato.h \
+    src/slide.h \
+    src/settings.h \
+    src/#nash.h \
+    src/nashville.h \
+    src/nash.h \
+    src/chord.h \
+    src/symboldialog.h \
+    src/line.h \
+    src/element.h
 
 DISTFILES +=
 
 RESOURCES += \
-    resources.qrc
+    resources/resources.qrc

@@ -48,6 +48,10 @@
 #define POST_SIZE global_cursorsize
 #define X_PRINT_CORR 20
 #define Y_PRINT_CORR 50
+
+#ifdef HOR_SPACE
+#undef HOR_SPACE
+#endif // HOR_SPACE
 #define HOR_SPACE 20
 //#define CHORD_SIZE
 //#define SYMBOL_SIZE

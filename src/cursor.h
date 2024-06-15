@@ -4,6 +4,9 @@
 #include <QPaintDevice>
 #include <QWidget>
 #include <global.h>
+#ifdef HOR_SPACE
+#undef HDR_SPACE
+#endif  // HOR_SPACE
 #define HOR_SPACE 30
 //#define global_cursorsize 15
 #define VSTEP 105
